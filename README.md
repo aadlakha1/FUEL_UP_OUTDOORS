@@ -1,6 +1,6 @@
 # MANKIT
 
-Intense workout protein & electrolyte drinks by **Simiran Jha**.
+Intense workout protein & electrolyte drinks by **Ryan Hutzley**.
 
 **Tagline:** Built Different.
 
