@@ -1,8 +1,8 @@
-# MANKIT
+# FUEL UP OUTDOORS
 
-Intense workout protein & electrolyte drinks by **Ryan Hutzley**.
+Trail-ready jerky & meat sticks by **Johanthan Blake Olson**.
 
-**Tagline:** Built Different.
+**Tagline:** Fuel the Wild.
 
 **Live site:** https://aadlakha1.github.io/mankit/
 **Admin dashboard:** append `?admin` to the site URL
@@ -12,7 +12,7 @@ Intense workout protein & electrolyte drinks by **Ryan Hutzley**.
 ## Tech Stack
 
 - Single self-contained `index.html` (no build tools, no dependencies)
-- Dark, matte, premium design with burnt copper accent
+- Dark, earthy, premium outdoor design with campfire amber accent
 - Firebase Firestore for real-time order + waitlist storage
 - Firebase Auth (email/password) for admin access
 - Hosted on GitHub Pages
@@ -32,22 +32,22 @@ Intense workout protein & electrolyte drinks by **Ryan Hutzley**.
 
 ## Products & Pricing
 
-### Powder Sticks (Box of 12)
+### Jerky Bags (2.5 oz each)
 | Flavor | Price | ID |
 |---|---|---|
-| Iron Forge (Blood Orange) | $24 | `stick-blood-orange` |
-| Black Ops (Unflavored) | $22 | `stick-unflavored` |
-| Granite (Vanilla Smoke) | $24 | `stick-vanilla` |
-| War Paint (Tropical) | $26 | `stick-tropical` |
+| Basecamp Original | $14 | `jerky-original` |
+| Smokestack Pepper | $14 | `jerky-peppered` |
+| Summit Teriyaki | $15 | `jerky-teriyaki` |
+| Trailfire Habanero | $16 | `jerky-habanero` |
 
-### RTD Cans (Pack of 6)
+### Meat Sticks (Pack of 8)
 | Flavor | Price | ID |
 |---|---|---|
-| Ironside (Blood Orange) | $30 | `can-blood-orange` |
-| Blackout (Unflavored) | $28 | `can-unflavored` |
-| Concrete (Vanilla) | $30 | `can-vanilla` |
-| Warzone (Mango Ginger) | $32 | `can-mango` |
-| Titan (Chocolate) | $32 | `can-chocolate` |
+| Ridgeline Original | $18 | `stick-original` |
+| Pinecrest Turkey | $18 | `stick-turkey` |
+| Timberline Buffalo | $20 | `stick-buffalo` |
+| Elk Run Venison | $22 | `stick-venison` |
+| Fireside Jalapeno | $20 | `stick-jalapeno` |
 
 ---
 
@@ -76,9 +76,9 @@ Access: append `?admin` to the site URL.
 
 ---
 
-## Customer Pre-Order Flow
+## Customer Order Flow
 
-1. Click **Pre-Order Now**
+1. Click **Order Now**
 2. Select products and quantities
 3. Fill in shipping details
 4. Place order → saved to Firestore
@@ -89,8 +89,9 @@ Access: append `?admin` to the site URL.
 
 ## Design
 
-- **Palette:** Burnt copper `#c47a3a`, warm stone `#8a7e72`, on near-black `#0c0c0c`
+- **Palette:** Campfire amber `#c17f3e`, forest green `#5a7a52`, on deep woodland `#1a1710`
 - **Always dark** — no light mode
-- **Cans:** Matte dark charcoal bodies with copper color bands
-- **Animations:** Scroll reveal, number counters, mouse-follow parallax, countdown timer
+- **Jerky bags:** Earthy gradient pouches with sealed tops
+- **Meat sticks:** Slim rounded cylinders in natural tones
+- **Animations:** Scroll reveal, number counters, mouse-follow parallax
 - **Responsive:** Fully mobile-friendly

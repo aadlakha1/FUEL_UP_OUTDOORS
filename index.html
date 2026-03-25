@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MANKIT — Built Different</title>
-    <meta name="description" content="Your recovery is broken. MANKIT puts 30g protein and full electrolytes in one drink — so recovery starts the second you finish your last rep.">
-    <meta name="theme-color" content="#0c0c0c">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏋️</text></svg>">
+    <title>FUEL UP OUTDOORS — Fuel the Wild</title>
+    <meta name="description" content="Trail-ready jerky and meat sticks made with real ingredients. FUEL UP OUTDOORS is premium protein for people who'd rather be outside.">
+    <meta name="theme-color" content="#1a1710">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏕️</text></svg>">
     <style>
         :root {
-            --bg: #0c0c0c;
-            --bg-alt: #141414;
-            --bg-dark: #080808;
-            --text-primary: #eae6e1;
-            --text-secondary: #9a9590;
-            --text-tertiary: #6a6560;
-            --accent: #c47a3a;
-            --accent-dark: #a86428;
-            --accent-glow: rgba(196,122,58,0.08);
-            --secondary: #8a7e72;
+            --bg: #1a1710;
+            --bg-alt: #1f1c16;
+            --bg-dark: #14120e;
+            --text-primary: #e8e3d8;
+            --text-secondary: #9a9282;
+            --text-tertiary: #6a6252;
+            --accent: #c17f3e;
+            --accent-dark: #9a6530;
+            --accent-glow: rgba(193,127,62,0.08);
+            --secondary: #5a7a52;
             --white: #ffffff;
-            --card-bg: #1c1c1c;
-            --border: #2c2c2c;
+            --card-bg: #24211a;
+            --border: #342f26;
             --danger: #ff3b30;
-            --success: #c47a3a;
+            --success: #5a7a52;
             --shadow: 0 4px 24px rgba(0,0,0,0.4);
             --shadow-lg: 0 20px 60px rgba(0,0,0,0.5);
             --shadow-xl: 0 32px 80px rgba(0,0,0,0.6);
@@ -35,21 +35,21 @@
         body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','Helvetica Neue',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text-primary);line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
 
         /* ===================== NAV ===================== */
-        nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(12,12,12,0.85);border-bottom:0.5px solid var(--border);transition:background 0.3s}
+        nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(26,23,16,0.85);border-bottom:0.5px solid var(--border);transition:background 0.3s}
         .nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
         .nav-logo{font-size:18px;font-weight:700;letter-spacing:0.05em;color:var(--text-primary);text-decoration:none;text-transform:uppercase}
         .nav-links{display:flex;gap:32px;list-style:none;align-items:center}
         .nav-links a{font-size:14px;color:var(--text-secondary);text-decoration:none;transition:color 0.2s}
         .nav-links a:hover{color:var(--text-primary)}
-        .nav-cta{background:var(--accent)!important;color:#0c0c0c!important;padding:8px 20px;border-radius:980px;font-size:14px;font-weight:600;transition:opacity 0.2s}
+        .nav-cta{background:var(--accent)!important;color:#1a1710!important;padding:8px 20px;border-radius:980px;font-size:14px;font-weight:600;transition:opacity 0.2s}
         .nav-cta:hover{opacity:0.85}
         .nav-menu-btn{display:none;background:none;border:none;color:var(--text-primary);font-size:24px;cursor:pointer;padding:4px}
         @media(max-width:768px){.nav-menu-btn{display:block}.nav-links{display:none}}
 
         /* ===================== HERO ===================== */
-        .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:140px 24px 100px;position:relative;overflow:hidden;background:linear-gradient(180deg,#0c0c0c 0%,#0f0f0f 50%,#141414 100%)}
-        .hero::before{content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:1000px;height:1000px;background:radial-gradient(circle,rgba(196,122,58,0.03) 0%,rgba(138,126,114,0.015) 40%,transparent 70%);border-radius:50%;pointer-events:none;animation:pulseGlow 6s ease-in-out infinite}
-        .hero::after{content:'';position:absolute;bottom:-100px;left:50%;transform:translateX(-50%);width:600px;height:300px;background:radial-gradient(ellipse,rgba(196,122,58,0.02) 0%,transparent 70%);pointer-events:none}
+        .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:140px 24px 100px;position:relative;overflow:hidden;background:linear-gradient(180deg,#1a1710 0%,#1c1914 50%,#1f1c16 100%)}
+        .hero::before{content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:1000px;height:1000px;background:radial-gradient(circle,rgba(193,127,62,0.03) 0%,rgba(90,122,82,0.015) 40%,transparent 70%);border-radius:50%;pointer-events:none;animation:pulseGlow 6s ease-in-out infinite}
+        .hero::after{content:'';position:absolute;bottom:-100px;left:50%;transform:translateX(-50%);width:600px;height:300px;background:radial-gradient(ellipse,rgba(193,127,62,0.02) 0%,transparent 70%);pointer-events:none}
         @keyframes pulseGlow{0%,100%{transform:translateX(-50%) scale(1);opacity:1}50%{transform:translateX(-50%) scale(1.1);opacity:0.7}}
 
         .hero-particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
@@ -62,9 +62,8 @@
         .particle:nth-child(6){left:92%;animation-duration:23s;animation-delay:4s;width:3px;height:3px}
         @keyframes floatUp{0%{transform:translateY(100vh) rotate(0deg);opacity:0}10%{opacity:0.06}90%{opacity:0.06}100%{transform:translateY(-100px) rotate(360deg);opacity:0}}
 
-        .hero-badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-glow);padding:8px 18px;border-radius:980px;margin-bottom:28px;letter-spacing:0.02em;animation:fadeUp 0.8s ease both;border:1px solid rgba(196,122,58,0.2)}
-        .hero-badge .dot{width:6px;height:6px;background:var(--accent);border-radius:50%;animation:blink 2s ease-in-out infinite}
-        .hero-badge .countdown{font-variant-numeric:tabular-nums;margin-left:4px;color:var(--secondary)}
+        .hero-badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-glow);padding:8px 18px;border-radius:980px;margin-bottom:28px;letter-spacing:0.02em;animation:fadeUp 0.8s ease both;border:1px solid rgba(193,127,62,0.2)}
+        .hero-badge .dot{width:6px;height:6px;background:var(--secondary);border-radius:50%;animation:blink 2s ease-in-out infinite}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
 
         .hero h1{font-size:clamp(52px,11vw,104px);font-weight:700;letter-spacing:-0.045em;line-height:1.02;max-width:900px;animation:fadeUp 0.8s ease 0.1s both;position:relative}
@@ -74,53 +73,45 @@
         .hero-sub{font-size:clamp(18px,2.5vw,24px);color:var(--text-secondary);max-width:620px;margin-top:20px;line-height:1.55;font-weight:400;animation:fadeUp 0.8s ease 0.2s both}
         .hero-actions{display:flex;gap:16px;margin-top:44px;flex-wrap:wrap;justify-content:center;animation:fadeUp 0.8s ease 0.3s both}
 
-        .btn-primary{background:var(--accent);color:#0c0c0c;padding:17px 36px;border-radius:980px;font-size:17px;font-weight:600;text-decoration:none;border:none;cursor:pointer;transition:transform 0.2s,opacity 0.2s,box-shadow 0.2s;display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 16px rgba(0,0,0,0.2)}
+        .btn-primary{background:var(--accent);color:#1a1710;padding:17px 36px;border-radius:980px;font-size:17px;font-weight:600;text-decoration:none;border:none;cursor:pointer;transition:transform 0.2s,opacity 0.2s,box-shadow 0.2s;display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 16px rgba(0,0,0,0.2)}
         .btn-primary:hover{transform:scale(1.03);box-shadow:0 8px 32px rgba(0,0,0,0.3)}
         .btn-secondary{background:transparent;color:var(--accent);padding:17px 36px;border-radius:980px;font-size:17px;font-weight:600;text-decoration:none;border:1.5px solid var(--accent);cursor:pointer;transition:transform 0.2s,background 0.2s}
-        .btn-secondary:hover{transform:scale(1.03);background:rgba(196,122,58,0.08)}
+        .btn-secondary:hover{transform:scale(1.03);background:rgba(193,127,62,0.08)}
 
         /* ===================== HERO PRODUCT SHOWCASE ===================== */
         .hero-showcase{margin-top:80px;display:flex;align-items:flex-end;justify-content:center;gap:28px;animation:fadeUp 1s ease 0.5s both;perspective:800px;position:relative}
 
-        /* Sticks (powder packs) — dark matte bodies */
-        .stick{width:40px;height:160px;position:relative;transition:transform 0.4s ease;cursor:default}
-        .stick:hover{transform:translateY(-12px)}
-        .stick-body{width:100%;height:100%;border-radius:6px;position:relative;overflow:hidden;box-shadow:0 16px 48px rgba(0,0,0,0.4),0 4px 12px rgba(0,0,0,0.3)}
-        .stick-body.copper{background:linear-gradient(170deg,#3a2e24 0%,#2a2018 50%,#1e1610 100%)}
-        .stick-body.dark{background:linear-gradient(170deg,#2a2a2a 0%,#1a1a1a 50%,#111111 100%)}
-        .stick-body::before{content:'';position:absolute;top:0;left:-50%;width:50%;height:100%;background:linear-gradient(90deg,transparent,rgba(196,122,58,0.1),transparent);transform:skewX(-20deg);animation:sachetShine 4s ease-in-out infinite;pointer-events:none}
-        .stick-body::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent,transparent 8px,rgba(196,122,58,0.04) 8px,rgba(196,122,58,0.04) 10px);pointer-events:none}
-        @keyframes sachetShine{0%,100%{left:-50%}50%{left:120%}}
-        .stick-label{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px 4px;text-align:center}
-        .stick-brand{font-size:5px;font-weight:800;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent)}
-        .stick-flavor{font-size:8px;font-weight:700;color:rgba(234,230,225,0.7);margin-top:4px;line-height:1.2}
+        /* Jerky Bags — flat pouch shapes */
+        .jerky-bag{width:80px;height:110px;position:relative;transition:transform 0.4s ease;cursor:default}
+        .jerky-bag:hover{transform:translateY(-12px)}
+        .jerky-bag-body{width:100%;height:100%;border-radius:8px;position:relative;overflow:hidden;box-shadow:0 16px 48px rgba(0,0,0,0.4),0 4px 12px rgba(0,0,0,0.3)}
+        .jerky-bag-body.original{background:linear-gradient(170deg,#5a4030 0%,#3a2a1e 50%,#2a1e14 100%)}
+        .jerky-bag-body.peppered{background:linear-gradient(170deg,#3a3a3a 0%,#2a2a2a 50%,#1a1a1a 100%)}
+        .jerky-bag-body.teriyaki{background:linear-gradient(170deg,#5a4a20 0%,#3a3210 50%,#2a2408 100%)}
+        .jerky-bag-body.habanero{background:linear-gradient(170deg,#5a2018 0%,#3a1610 50%,#2a0e08 100%)}
+        .jerky-bag-body::before{content:'';position:absolute;top:0;left:-50%;width:50%;height:100%;background:linear-gradient(90deg,transparent,rgba(193,127,62,0.1),transparent);transform:skewX(-20deg);animation:bagShine 4s ease-in-out infinite;pointer-events:none}
+        .jerky-bag-body::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent,transparent 8px,rgba(193,127,62,0.04) 8px,rgba(193,127,62,0.04) 10px);pointer-events:none}
+        @keyframes bagShine{0%,100%{left:-50%}50%{left:120%}}
+        .jerky-bag-top{position:absolute;top:0;left:0;right:0;height:12px;background:linear-gradient(180deg,rgba(193,127,62,0.3),rgba(193,127,62,0.1));border-radius:8px 8px 0 0;z-index:2}
+        .jerky-bag-top::after{content:'';position:absolute;top:10px;left:10%;right:10%;height:2px;background:repeating-linear-gradient(90deg,rgba(193,127,62,0.3) 0px,rgba(193,127,62,0.3) 3px,transparent 3px,transparent 6px)}
+        .jerky-bag-label{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px 6px 8px;text-align:center}
+        .jerky-bag-brand{font-size:6px;font-weight:800;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent)}
+        .jerky-bag-flavor{font-size:9px;font-weight:700;color:rgba(232,227,216,0.8);margin-top:4px;line-height:1.2}
+        .jerky-bag-weight{font-size:6px;color:var(--text-tertiary);margin-top:4px;letter-spacing:0.05em}
 
-        /* Cans — dark charcoal/black bodies */
-        .can{width:96px;height:280px;position:relative;transition:transform 0.4s ease;cursor:default}
-        .can:hover{transform:translateY(-16px)}
-        .can-body{width:100%;height:100%;border-radius:12px 12px 16px 16px;position:relative;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.3),0 4px 12px rgba(0,0,0,0.2)}
-        .can-body.burnt-copper{background:linear-gradient(180deg,#1e1e1e 0%,#181818 50%,#121212 100%)}
-        .can-body.matte-black{background:linear-gradient(180deg,#1a1a1a 0%,#111111 50%,#0a0a0a 100%)}
-        .can-body.warm-stone{background:linear-gradient(180deg,#1e1c1a 0%,#181614 50%,#12100e 100%)}
-        .can-color-band{position:absolute;top:80px;left:0;right:0;height:50px}
-        .can-body.burnt-copper .can-color-band{background:linear-gradient(180deg,#c47a3a,#a86428)}
-        .can-body.matte-black .can-color-band{background:linear-gradient(180deg,#333333,#222222)}
-        .can-body.warm-stone .can-color-band{background:linear-gradient(180deg,#8a7e72,#6a6056)}
-        .can-top{position:absolute;top:0;left:0;right:0;height:24px;background:linear-gradient(180deg,#2a2a2a 0%,#222222 40%,#1a1a1a 100%);border-radius:12px 12px 0 0;display:flex;align-items:center;justify-content:center}
-        .can-top::before{content:'';width:50px;height:14px;border-radius:7px;border:1.5px solid rgba(196,122,58,0.15);background:linear-gradient(180deg,#2a2a2a,#1e1e1e);position:relative;top:1px}
-        .can-tab{position:absolute;top:3px;left:50%;transform:translateX(-50%);width:20px;height:10px;border-radius:5px 5px 3px 3px;background:linear-gradient(180deg,#333,#222);border:1px solid rgba(196,122,58,0.1);z-index:2}
-        .can-tab::after{content:'';position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:6px;height:4px;border-radius:50%;border:1px solid rgba(196,122,58,0.1)}
-        .can-bottom{position:absolute;bottom:0;left:0;right:0;height:8px;background:linear-gradient(0deg,#1a1a1a,#222222);border-radius:0 0 16px 16px}
-        .can-label{position:absolute;top:40px;left:0;right:0;bottom:24px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 10px;text-align:center;z-index:2}
-        .can-brand{font-size:7px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent)}
-        .can-divider{width:24px;height:1px;background:var(--accent);opacity:0.3;margin:6px 0}
-        .can-flavor{font-size:13px;font-weight:700;color:var(--text-primary);letter-spacing:-0.01em;line-height:1.2}
-        .can-sub{font-size:7px;color:var(--text-tertiary);letter-spacing:0.1em;text-transform:uppercase;margin-top:4px}
-        .can-ml{font-size:6px;color:var(--text-tertiary);margin-top:8px;letter-spacing:0.05em;opacity:0.5}
-        .can-seal{position:absolute;bottom:28px;width:24px;height:24px;border-radius:50%;border:1px solid rgba(196,122,58,0.3);display:flex;align-items:center;justify-content:center;z-index:2}
-        .can-seal::after{content:'MK';font-size:6px;font-weight:800;color:var(--accent);letter-spacing:0.05em}
-        .can-body::before{content:'';position:absolute;top:0;right:-10px;width:40px;height:100%;background:linear-gradient(180deg,transparent,rgba(196,122,58,0.06),transparent);transform:skewX(-5deg);pointer-events:none;z-index:3}
-        .can-body::after{content:'';position:absolute;top:24px;left:8px;width:1px;height:calc(100% - 40px);background:linear-gradient(180deg,transparent,rgba(196,122,58,0.1),transparent);pointer-events:none;z-index:3}
+        /* Meat Sticks — slim cylinders */
+        .meat-stick{width:28px;height:160px;position:relative;transition:transform 0.4s ease;cursor:default}
+        .meat-stick:hover{transform:translateY(-12px)}
+        .meat-stick-body{width:100%;height:100%;border-radius:14px;position:relative;overflow:hidden;box-shadow:0 16px 48px rgba(0,0,0,0.4),0 4px 12px rgba(0,0,0,0.3)}
+        .meat-stick-body.ms-original{background:linear-gradient(170deg,#6a4a30 0%,#4a3220 50%,#3a2414 100%)}
+        .meat-stick-body.ms-turkey{background:linear-gradient(170deg,#4a5a3a 0%,#3a4a2a 50%,#2a3a1a 100%)}
+        .meat-stick-body.ms-buffalo{background:linear-gradient(170deg,#5a3e2a 0%,#4a301e 50%,#3a2212 100%)}
+        .meat-stick-body::before{content:'';position:absolute;top:0;left:-50%;width:50%;height:100%;background:linear-gradient(90deg,transparent,rgba(193,127,62,0.08),transparent);transform:skewX(-20deg);animation:bagShine 4s ease-in-out infinite;pointer-events:none}
+        .meat-stick-body::after{content:'';position:absolute;top:8px;left:50%;transform:translateX(-50%);width:16px;height:calc(100% - 16px);background:repeating-linear-gradient(180deg,transparent,transparent 12px,rgba(193,127,62,0.06) 12px,rgba(193,127,62,0.06) 14px);pointer-events:none;border-radius:8px}
+        .meat-stick-label{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px 2px;text-align:center;writing-mode:vertical-lr;text-orientation:mixed}
+        .meat-stick-brand{font-size:5px;font-weight:800;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);writing-mode:vertical-lr}
+        .meat-stick-flavor{font-size:7px;font-weight:700;color:rgba(232,227,216,0.7);margin-top:6px;writing-mode:vertical-lr;line-height:1.2}
+
         .product-shadow{position:absolute;bottom:-10px;left:50%;transform:translateX(-50%);width:70%;height:20px;background:radial-gradient(ellipse,rgba(0,0,0,0.3) 0%,transparent 70%);border-radius:50%}
 
         /* ===================== MARQUEE ===================== */
@@ -139,34 +130,31 @@
         .products-grid{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
         .product-card{background:var(--card-bg);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform 0.4s ease,box-shadow 0.4s ease;position:relative;border:1px solid var(--border)}
         .product-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-xl)}
-        .product-card-visual{height:280px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#0c0c0c 0%,#141414 50%,#1c1c1c 100%)}
-        .card-stick-group{display:flex;gap:8px;align-items:flex-end;transform:rotate(-3deg)}
-        .card-stick{width:28px;height:100px;border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 12px 32px rgba(0,0,0,0.4);position:relative;overflow:hidden}
-        .card-stick.s1{background:linear-gradient(170deg,#3a2e24,#1e1610);transform:translateY(-8px)}
-        .card-stick.s2{background:linear-gradient(170deg,#2a2a2a,#111111)}
-        .card-stick.s3{background:linear-gradient(170deg,#3a3632,#1e1a16);transform:translateY(-4px)}
-        .card-stick.s4{background:linear-gradient(170deg,#3a3020,#1e1810);transform:translateY(-2px)}
-        .card-stick::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent,transparent 6px,rgba(196,122,58,0.06) 6px,rgba(196,122,58,0.06) 7px);pointer-events:none}
-        .card-stick span{font-size:4px;font-weight:700;letter-spacing:0.1em;color:var(--accent);text-transform:uppercase;z-index:1}
-        .card-can-group{display:flex;gap:16px;align-items:flex-end}
-        .card-can{width:52px;height:150px;border-radius:8px 8px 10px 10px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;box-shadow:0 12px 32px rgba(0,0,0,0.3);background:#181818;overflow:hidden}
-        .card-can.c1{transform:translateY(-10px)}
-        .card-can.c1::before{content:'';position:absolute;top:40px;left:0;right:0;height:24px;background:var(--accent)}
-        .card-can.c2::before{content:'';position:absolute;top:40px;left:0;right:0;height:24px;background:#333}
-        .card-can.c3{transform:translateY(-6px)}
-        .card-can.c3::before{content:'';position:absolute;top:40px;left:0;right:0;height:24px;background:#8a7e72}
-        .card-can.c4::before{content:'';position:absolute;top:40px;left:0;right:0;height:24px;background:#b8860b}
-        .card-can.c5{transform:translateY(-4px)}
-        .card-can.c5::before{content:'';position:absolute;top:40px;left:0;right:0;height:24px;background:#4a3020}
-        .card-can span{font-size:5px;font-weight:700;letter-spacing:0.12em;color:var(--accent);text-transform:uppercase;z-index:2}
-        .card-can-top{position:absolute;top:0;left:0;right:0;height:12px;background:linear-gradient(180deg,#2a2a2a,#1a1a1a);border-radius:8px 8px 0 0;z-index:2}
-        .product-card-visual::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:60%;height:40%;background:radial-gradient(ellipse,rgba(196,122,58,0.02) 0%,transparent 70%);pointer-events:none}
+        .product-card-visual{height:280px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#1a1710 0%,#1f1c16 50%,#24211a 100%)}
+        .card-bag-group{display:flex;gap:10px;align-items:flex-end;transform:rotate(-3deg)}
+        .card-bag{width:52px;height:72px;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 12px 32px rgba(0,0,0,0.4);position:relative;overflow:hidden}
+        .card-bag.b1{background:linear-gradient(170deg,#5a4030,#2a1e14);transform:translateY(-8px)}
+        .card-bag.b2{background:linear-gradient(170deg,#3a3a3a,#1a1a1a)}
+        .card-bag.b3{background:linear-gradient(170deg,#5a4a20,#2a2408);transform:translateY(-4px)}
+        .card-bag.b4{background:linear-gradient(170deg,#5a2018,#2a0e08);transform:translateY(-2px)}
+        .card-bag::before{content:'';position:absolute;top:0;left:0;right:0;height:8px;background:linear-gradient(180deg,rgba(193,127,62,0.25),rgba(193,127,62,0.08));border-radius:6px 6px 0 0}
+        .card-bag::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent,transparent 6px,rgba(193,127,62,0.06) 6px,rgba(193,127,62,0.06) 7px);pointer-events:none}
+        .card-bag span{font-size:4px;font-weight:700;letter-spacing:0.1em;color:var(--accent);text-transform:uppercase;z-index:1}
+        .card-stick-group{display:flex;gap:8px;align-items:flex-end}
+        .card-stick{width:18px;height:120px;border-radius:9px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;box-shadow:0 12px 32px rgba(0,0,0,0.3);overflow:hidden}
+        .card-stick.k1{background:linear-gradient(170deg,#6a4a30,#3a2414);transform:translateY(-10px)}
+        .card-stick.k2{background:linear-gradient(170deg,#4a5a3a,#2a3a1a)}
+        .card-stick.k3{transform:translateY(-6px);background:linear-gradient(170deg,#5a3e2a,#3a2212)}
+        .card-stick.k4{background:linear-gradient(170deg,#5c3a20,#3a2010)}
+        .card-stick.k5{transform:translateY(-4px);background:linear-gradient(170deg,#4a6a2a,#2a4a12)}
+        .card-stick span{font-size:4px;font-weight:700;letter-spacing:0.08em;color:var(--accent);text-transform:uppercase;z-index:2;writing-mode:vertical-lr}
+        .product-card-visual::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:60%;height:40%;background:radial-gradient(ellipse,rgba(193,127,62,0.02) 0%,transparent 70%);pointer-events:none}
         .product-card-info{padding:36px 32px 40px}
         .product-card-info h3{font-size:26px;font-weight:700;letter-spacing:-0.02em;margin-bottom:4px}
         .product-card-info .price{font-size:17px;font-weight:600;color:var(--accent);margin-bottom:14px}
         .product-card-info p{font-size:15px;color:var(--text-secondary);line-height:1.65}
         .flavor-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
-        .flavor-pill{font-size:12px;font-weight:600;padding:6px 14px;border-radius:980px;background:#222;color:var(--text-secondary);border:1px solid #333}
+        .flavor-pill{font-size:12px;font-weight:600;padding:6px 14px;border-radius:980px;background:#2a2618;color:var(--text-secondary);border:1px solid #3a3428}
 
         /* ===================== INGREDIENT STRIP ===================== */
         .ingredient-strip{padding:32px 0;overflow:hidden;border-top:0.5px solid var(--border);border-bottom:0.5px solid var(--border);background:var(--bg-dark)}
@@ -186,7 +174,7 @@
         @media(max-width:500px){.features-grid{grid-template-columns:1fr}}
 
         .big-quote{padding:120px 24px;text-align:center;background:var(--bg-dark);color:var(--text-primary);position:relative;overflow:hidden}
-        .big-quote::before{content:'\201C';position:absolute;top:-40px;left:50%;transform:translateX(-50%);font-size:300px;font-weight:700;color:rgba(196,122,58,0.03);line-height:1;pointer-events:none}
+        .big-quote::before{content:'\201C';position:absolute;top:-40px;left:50%;transform:translateX(-50%);font-size:300px;font-weight:700;color:rgba(193,127,62,0.03);line-height:1;pointer-events:none}
         .big-quote blockquote{max-width:700px;margin:0 auto;font-size:clamp(24px,4vw,36px);font-weight:600;letter-spacing:-0.02em;line-height:1.4;position:relative;z-index:1}
         .big-quote .quote-author{margin-top:24px;font-size:15px;color:var(--text-tertiary);font-weight:400}
 
@@ -194,7 +182,7 @@
         .steps{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
         .step{text-align:center;padding:40px 28px;background:var(--card-bg);border-radius:var(--radius);box-shadow:var(--shadow);transition:transform 0.3s,box-shadow 0.3s;position:relative;border:1px solid var(--border)}
         .step:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
-        .step-number{width:56px;height:56px;border-radius:50%;background:var(--accent);color:#0c0c0c;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;margin:0 auto 20px}
+        .step-number{width:56px;height:56px;border-radius:50%;background:var(--accent);color:#1a1710;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;margin:0 auto 20px}
         .step h3{font-size:20px;font-weight:700;letter-spacing:-0.01em;margin-bottom:8px}
         .step p{font-size:15px;color:var(--text-secondary);line-height:1.6}
         .step:not(:last-child)::after{content:'';position:absolute;top:50%;right:-20px;width:12px;height:12px;border-top:2px solid var(--accent);border-right:2px solid var(--accent);transform:rotate(45deg);z-index:2;opacity:0.4}
@@ -209,7 +197,7 @@
         .star svg{width:18px;height:18px;fill:var(--accent)}
         .testimonial blockquote{font-size:16px;line-height:1.65;color:var(--text-primary);margin-bottom:24px;font-style:italic}
         .testimonial-footer{display:flex;align-items:center;gap:12px}
-        .testimonial-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--accent-glow),rgba(196,122,58,0.3));display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--accent)}
+        .testimonial-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--accent-glow),rgba(193,127,62,0.3));display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--accent)}
         .testimonial-info .testimonial-author{font-size:15px;font-weight:600}
         .testimonial-info .testimonial-handle{font-size:13px;color:var(--text-tertiary)}
 
@@ -227,13 +215,13 @@
         .email-form input[type="email"]{flex:1;min-width:260px;padding:18px 26px;border-radius:980px;border:1.5px solid var(--border);background:var(--card-bg);color:var(--text-primary);font-size:17px;font-family:inherit;outline:none;transition:border-color 0.2s,box-shadow 0.2s}
         .email-form input[type="email"]:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-glow)}
         .email-form input[type="email"]::placeholder{color:var(--text-tertiary)}
-        .email-form button{padding:18px 36px;border-radius:980px;background:var(--accent);color:#0c0c0c;font-size:17px;font-weight:600;font-family:inherit;border:none;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 16px rgba(0,0,0,0.2)}
+        .email-form button{padding:18px 36px;border-radius:980px;background:var(--accent);color:#1a1710;font-size:17px;font-weight:600;font-family:inherit;border:none;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 16px rgba(0,0,0,0.2)}
         .email-form button:hover{transform:scale(1.03);box-shadow:0 8px 32px rgba(0,0,0,0.3)}
         .form-note{font-size:13px;color:var(--text-tertiary);margin-top:16px}
         .waitlist-perks{display:flex;gap:24px;justify-content:center;margin-top:28px;flex-wrap:wrap}
         .perk{font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:6px}
         .perk svg{width:16px;height:16px;stroke:var(--accent);fill:none;stroke-width:2}
-        .success-message{display:none;padding:24px;background:var(--accent-glow);border:1px solid rgba(196,122,58,0.2);border-radius:var(--radius-sm);margin-top:24px;font-size:17px;font-weight:500;color:var(--accent)}
+        .success-message{display:none;padding:24px;background:var(--accent-glow);border:1px solid rgba(193,127,62,0.2);border-radius:var(--radius-sm);margin-top:24px;font-size:17px;font-weight:500;color:var(--accent)}
 
         footer{padding:60px 24px 40px;text-align:center;border-top:0.5px solid var(--border);background:var(--bg)}
         .footer-inner{max-width:800px;margin:0 auto}
@@ -243,11 +231,11 @@
         .footer-links a:hover{color:var(--accent)}
         .footer-social{display:flex;gap:16px;justify-content:center;margin-bottom:28px}
         .footer-social a{width:40px;height:40px;border-radius:50%;background:var(--bg-alt);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;transition:background 0.2s,border-color 0.2s}
-        .footer-social a:hover{background:var(--accent-glow);border-color:rgba(196,122,58,0.3)}
+        .footer-social a:hover{background:var(--accent-glow);border-color:rgba(193,127,62,0.3)}
         .footer-social svg{width:18px;height:18px;fill:var(--text-secondary)}
         .footer-copy{font-size:13px;color:var(--text-tertiary)}
 
-        /* ===================== MODAL / PRE-ORDER ===================== */
+        /* ===================== MODAL / ORDER ===================== */
         .modal-overlay{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,0.6);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:24px;overflow-y:auto}
         .modal-overlay.open{display:flex}
         .modal{background:var(--card-bg);border-radius:var(--radius);max-width:640px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:var(--shadow-xl);animation:modalIn 0.3s ease;border:1px solid var(--border)}
@@ -261,15 +249,15 @@
         .order-product:last-of-type{border-bottom:none}
         .order-product-info{display:flex;align-items:center;gap:14px}
         .order-product-swatch{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:var(--accent);letter-spacing:0.05em;flex-shrink:0}
-        .swatch-blood-orange{background:linear-gradient(135deg,#8b3a1a,#5a2210)}
-        .swatch-stick-unflavored{background:linear-gradient(135deg,#333,#111)}
-        .swatch-vanilla{background:linear-gradient(135deg,#6a6056,#4a4640)}
-        .swatch-tropical{background:linear-gradient(135deg,#8b6b20,#5a4510)}
-        .swatch-can-blood-orange{background:linear-gradient(135deg,#c47a3a,#a86428)}
-        .swatch-can-unflavored{background:linear-gradient(135deg,#333,#111)}
-        .swatch-can-vanilla{background:linear-gradient(135deg,#8a7e72,#6a6056)}
-        .swatch-mango{background:linear-gradient(135deg,#b8860b,#8a6400)}
-        .swatch-chocolate{background:linear-gradient(135deg,#4a3020,#2a1a10)}
+        .swatch-original{background:linear-gradient(135deg,#6b4226,#4a2e18)}
+        .swatch-peppered{background:linear-gradient(135deg,#3a3a3a,#1a1a1a)}
+        .swatch-teriyaki{background:linear-gradient(135deg,#8b6914,#5a4510)}
+        .swatch-habanero{background:linear-gradient(135deg,#8b2500,#5a1800)}
+        .swatch-stick-original{background:linear-gradient(135deg,#c17f3e,#9a6530)}
+        .swatch-stick-turkey{background:linear-gradient(135deg,#5a7a52,#3a5a32)}
+        .swatch-stick-buffalo{background:linear-gradient(135deg,#8a5e3a,#5a3e2a)}
+        .swatch-stick-venison{background:linear-gradient(135deg,#5c3a20,#3a2210)}
+        .swatch-stick-jalapeno{background:linear-gradient(135deg,#4a6a2a,#2a4a12)}
         .order-product-name{font-size:15px;font-weight:600}
         .order-product-price{font-size:13px;color:var(--text-secondary)}
         .qty-control{display:flex;align-items:center;border:1.5px solid var(--border);border-radius:10px;overflow:hidden}
@@ -287,7 +275,7 @@
         .form-field input,.form-field textarea{padding:12px 16px;border-radius:10px;border:1.5px solid var(--border);background:var(--bg);color:var(--text-primary);font-size:15px;font-family:inherit;outline:none;transition:border-color 0.2s,box-shadow 0.2s}
         .form-field input:focus,.form-field textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}
         .form-field textarea{resize:vertical;min-height:60px}
-        .btn-order{width:100%;padding:18px;border-radius:980px;background:var(--accent);color:#0c0c0c;font-size:17px;font-weight:600;font-family:inherit;border:none;cursor:pointer;margin-top:24px;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 16px rgba(0,0,0,0.2)}
+        .btn-order{width:100%;padding:18px;border-radius:980px;background:var(--accent);color:#1a1710;font-size:17px;font-weight:600;font-family:inherit;border:none;cursor:pointer;margin-top:24px;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 16px rgba(0,0,0,0.2)}
         .btn-order:hover{transform:scale(1.02);box-shadow:0 8px 32px rgba(0,0,0,0.3)}
         .btn-order:disabled{opacity:0.5;cursor:not-allowed;transform:none}
         .order-success{text-align:center;padding:48px 24px}
@@ -304,7 +292,7 @@
         @media(max-width:600px){.form-row{grid-template-columns:1fr}.modal-body{padding:20px}.modal-header{padding:20px 20px 0}}
 
         /* Spinner */
-        .spinner{display:inline-block;width:20px;height:20px;border:2.5px solid rgba(12,12,12,0.2);border-top-color:#0c0c0c;border-radius:50%;animation:spin 0.6s linear infinite;vertical-align:middle;margin-right:8px}
+        .spinner{display:inline-block;width:20px;height:20px;border:2.5px solid rgba(26,23,16,0.2);border-top-color:#1a1710;border-radius:50%;animation:spin 0.6s linear infinite;vertical-align:middle;margin-right:8px}
         @keyframes spin{to{transform:rotate(360deg)}}
 
         /* Toast notifications */
@@ -320,7 +308,7 @@
         .admin-actions{display:flex;gap:12px;flex-wrap:wrap}
         .btn-admin{padding:10px 22px;border-radius:980px;font-size:14px;font-weight:600;font-family:inherit;cursor:pointer;transition:transform 0.2s;border:1.5px solid var(--border);background:var(--card-bg);color:var(--text-primary)}
         .btn-admin:hover{transform:scale(1.02)}
-        .btn-admin.primary{background:var(--accent);color:#0c0c0c;border-color:var(--accent)}
+        .btn-admin.primary{background:var(--accent);color:#1a1710;border-color:var(--accent)}
         .btn-admin.danger{background:transparent;border-color:var(--danger);color:var(--danger)}
         .admin-stats{max-width:1100px;margin:0 auto 32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
         .admin-stat{background:var(--card-bg);border-radius:var(--radius-sm);padding:24px;box-shadow:var(--shadow);border:1px solid var(--border)}
@@ -342,8 +330,8 @@
         .order-items-list{font-size:13px;color:var(--text-secondary);line-height:1.6}
         .order-status{display:inline-block;padding:3px 10px;border-radius:980px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;cursor:pointer;transition:opacity 0.2s;border:none;font-family:inherit}
         .order-status:hover{opacity:0.7}
-        .order-status.pending{background:rgba(196,122,58,0.12);color:var(--accent)}
-        .order-status.confirmed{background:rgba(138,126,114,0.12);color:var(--secondary)}
+        .order-status.pending{background:rgba(193,127,62,0.12);color:var(--accent)}
+        .order-status.confirmed{background:rgba(90,122,82,0.12);color:var(--secondary)}
         .order-status.shipped{background:rgba(0,122,255,0.12);color:#007aff}
         .order-status.cancelled{background:rgba(255,59,48,0.12);color:var(--danger)}
         .admin-empty{text-align:center;padding:80px 24px;color:var(--text-tertiary);font-size:16px}
@@ -377,8 +365,8 @@
             section{padding:100px 20px}
             #products,#science,#how,#athletes{padding:100px 20px}
             .hero-showcase{gap:16px;flex-wrap:wrap;justify-content:center}
-            .stick{width:32px;height:120px}
-            .can{width:76px;height:220px}
+            .jerky-bag{width:64px;height:88px}
+            .meat-stick{width:22px;height:120px}
             .email-form{flex-direction:column}
             .email-form input[type="email"]{min-width:auto;width:100%}
             .email-form button{width:100%}
@@ -391,15 +379,15 @@
 <!-- NAV -->
 <nav>
     <div class="nav-inner">
-        <a href="#" class="nav-logo">MANKIT</a>
+        <a href="#" class="nav-logo">FUEL UP OUTDOORS</a>
         <ul class="nav-links">
             <li><a href="#products">Products</a></li>
-            <li><a href="#science">Science</a></li>
+            <li><a href="#science">Nutrition</a></li>
             <li><a href="#how">How It Works</a></li>
-            <li><a href="#athletes">Results</a></li>
-            <li><a href="#preorder" class="nav-cta" onclick="event.preventDefault();openPreorder()">Pre-Order</a></li>
+            <li><a href="#athletes">Reviews</a></li>
+            <li><a href="#preorder" class="nav-cta" onclick="event.preventDefault();openPreorder()">Order Now</a></li>
         </ul>
-        <button class="nav-menu-btn" onclick="openPreorder()" aria-label="Pre-order">&#8594;</button>
+        <button class="nav-menu-btn" onclick="openPreorder()" aria-label="Order">&#8594;</button>
     </div>
 </nav>
 
@@ -409,58 +397,58 @@
         <div class="particle"></div><div class="particle"></div><div class="particle"></div>
         <div class="particle"></div><div class="particle"></div><div class="particle"></div>
     </div>
-    <span class="hero-badge"><span class="dot"></span> Pre-orders open — first batch ships April <span class="countdown" id="countdown"></span></span>
-    <h1 class="glitch">Your recovery is <span class="accent">broken.</span></h1>
-    <p class="hero-sub">You train hard and then wait hours to refuel. By then the damage is done. MANKIT puts 30g protein and full electrolytes in one drink — so recovery starts the second you finish your last rep.</p>
+    <span class="hero-badge"><span class="dot"></span> Now shipping — adventure-ready protein</span>
+    <h1 class="glitch">Your trail snacks are <span class="accent">garbage.</span></h1>
+    <p class="hero-sub">You hike for hours on sugar-loaded granola bars and call it fuel. By mile three you're crashing. FUEL UP OUTDOORS is real-ingredient jerky and meat sticks — 15g protein per serving, no junk, fits in your pack.</p>
     <div class="hero-actions">
         <a href="#preorder" class="btn-primary" onclick="event.preventDefault();openPreorder()">
-            Pre-Order Now
+            Order Now
             <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
         <a href="#products" class="btn-secondary">Explore Products</a>
     </div>
     <div class="hero-showcase" id="heroShowcase">
-        <div class="stick"><div class="stick-body copper"><div class="stick-label"><span class="stick-brand">MANKIT</span><span class="stick-flavor">Iron<br>Forge</span></div></div><div class="product-shadow"></div></div>
-        <div class="can"><div class="can-body burnt-copper"><div class="can-color-band"></div><div class="can-top"></div><div class="can-tab"></div><div class="can-label"><span class="can-brand">MANKIT</span><div class="can-divider"></div><span class="can-flavor">Ironside</span><span class="can-sub">30g Protein</span><span class="can-ml">355ml / 12 fl oz</span></div><div class="can-seal"></div><div class="can-bottom"></div></div><div class="product-shadow"></div></div>
-        <div class="can"><div class="can-body matte-black"><div class="can-color-band"></div><div class="can-top"></div><div class="can-tab"></div><div class="can-label"><span class="can-brand">MANKIT</span><div class="can-divider"></div><span class="can-flavor">Blackout</span><span class="can-sub">30g Protein</span><span class="can-ml">355ml / 12 fl oz</span></div><div class="can-seal"></div><div class="can-bottom"></div></div><div class="product-shadow"></div></div>
-        <div class="can"><div class="can-body warm-stone"><div class="can-color-band"></div><div class="can-top"></div><div class="can-tab"></div><div class="can-label"><span class="can-brand">MANKIT</span><div class="can-divider"></div><span class="can-flavor">Concrete</span><span class="can-sub">30g Protein</span><span class="can-ml">355ml / 12 fl oz</span></div><div class="can-seal"></div><div class="can-bottom"></div></div><div class="product-shadow"></div></div>
-        <div class="stick"><div class="stick-body dark"><div class="stick-label"><span class="stick-brand">MANKIT</span><span class="stick-flavor">Black<br>Ops</span></div></div><div class="product-shadow"></div></div>
+        <div class="meat-stick"><div class="meat-stick-body ms-original"><div class="meat-stick-label"><span class="meat-stick-brand">FUO</span><span class="meat-stick-flavor">Ridge</span></div></div><div class="product-shadow"></div></div>
+        <div class="jerky-bag"><div class="jerky-bag-body original"><div class="jerky-bag-top"></div><div class="jerky-bag-label"><span class="jerky-bag-brand">FUEL UP OUTDOORS</span><span class="jerky-bag-flavor">Basecamp<br>Original</span><span class="jerky-bag-weight">2.5 oz</span></div></div><div class="product-shadow"></div></div>
+        <div class="jerky-bag"><div class="jerky-bag-body peppered"><div class="jerky-bag-top"></div><div class="jerky-bag-label"><span class="jerky-bag-brand">FUEL UP OUTDOORS</span><span class="jerky-bag-flavor">Smokestack<br>Pepper</span><span class="jerky-bag-weight">2.5 oz</span></div></div><div class="product-shadow"></div></div>
+        <div class="jerky-bag"><div class="jerky-bag-body teriyaki"><div class="jerky-bag-top"></div><div class="jerky-bag-label"><span class="jerky-bag-brand">FUEL UP OUTDOORS</span><span class="jerky-bag-flavor">Summit<br>Teriyaki</span><span class="jerky-bag-weight">2.5 oz</span></div></div><div class="product-shadow"></div></div>
+        <div class="meat-stick"><div class="meat-stick-body ms-turkey"><div class="meat-stick-label"><span class="meat-stick-brand">FUO</span><span class="meat-stick-flavor">Pine</span></div></div><div class="product-shadow"></div></div>
     </div>
 </section>
 
 <!-- MARQUEE -->
 <div class="marquee-section">
     <div class="marquee-track">
-        <span class="marquee-item"><span class="marquee-dot"></span>30g protein per serve</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Full electrolyte panel</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Zero sugar</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Recovery starts now</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>No more two shakers</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>One drink. Done.</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Lab tested</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Built for intensity</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>30g protein per serve</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Full electrolyte panel</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Zero sugar</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Recovery starts now</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>No more two shakers</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>One drink. Done.</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Lab tested</span>
-        <span class="marquee-item"><span class="marquee-dot"></span>Built for intensity</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>15g protein per stick</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Grass-fed beef</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>No preservatives</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Trail-ready fuel</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Fits in any pack</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Real food. Real protein.</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Small-batch crafted</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Built for the wild</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>15g protein per stick</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Grass-fed beef</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>No preservatives</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Trail-ready fuel</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Fits in any pack</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Real food. Real protein.</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Small-batch crafted</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Built for the wild</span>
     </div>
 </div>
 
 <!-- PRODUCTS -->
 <section id="products">
-    <div class="section-header reveal"><p class="section-label">Products</p><h2>One drink replaces your whole post-workout stack.</h2><p>Protein powder. Electrolyte mix. Recovery shake. You used to need three products. Now you need one.</p></div>
+    <div class="section-header reveal"><p class="section-label">Products</p><h2>Real protein that keeps up with you.</h2><p>Forget chalky bars and sugar bombs. FUEL UP OUTDOORS is clean jerky and meat sticks built for people who actually go outside.</p></div>
     <div class="products-grid">
         <div class="product-card reveal">
-            <div class="product-card-visual"><div class="card-stick-group"><div class="card-stick s1"><span>MK</span></div><div class="card-stick s2"><span>MK</span></div><div class="card-stick s3"><span>MK</span></div><div class="card-stick s4"><span>MK</span></div></div></div>
-            <div class="product-card-info"><h3>Powder Sticks</h3><p class="price">From $22 / box of 12</p><p>Throw one in your gym bag. After your last set, tear it into water — 30g protein and full electrolytes hitting your muscles before you even leave the building.</p><div class="flavor-pills"><span class="flavor-pill">Iron Forge</span><span class="flavor-pill">Black Ops</span><span class="flavor-pill">Granite</span><span class="flavor-pill">War Paint</span></div></div>
+            <div class="product-card-visual"><div class="card-bag-group"><div class="card-bag b1"><span>FUO</span></div><div class="card-bag b2"><span>FUO</span></div><div class="card-bag b3"><span>FUO</span></div><div class="card-bag b4"><span>FUO</span></div></div></div>
+            <div class="product-card-info"><h3>Jerky Bags</h3><p class="price">From $14 / bag (2.5 oz)</p><p>Toss a bag in your pack before you hit the trail. Slow-smoked, high-protein jerky that tastes like it came off a campfire, not a factory line.</p><div class="flavor-pills"><span class="flavor-pill">Basecamp Original</span><span class="flavor-pill">Smokestack Pepper</span><span class="flavor-pill">Summit Teriyaki</span><span class="flavor-pill">Trailfire Habanero</span></div></div>
         </div>
         <div class="product-card reveal reveal-delay-1">
-            <div class="product-card-visual"><div class="card-can-group"><div class="card-can c1"><div class="card-can-top"></div><span>Iron</span></div><div class="card-can c2"><div class="card-can-top"></div><span>Black</span></div><div class="card-can c3"><div class="card-can-top"></div><span>Stone</span></div></div></div>
-            <div class="product-card-info"><h3>RTD Cans</h3><p class="price">From $28 / pack of 6</p><p>Keep a pack in your gym locker. Crack one open the second you rack your last weight. No shaker, no mixing, no waiting to get home.</p><div class="flavor-pills"><span class="flavor-pill">Ironside</span><span class="flavor-pill">Blackout</span><span class="flavor-pill">Concrete</span><span class="flavor-pill">Warzone</span><span class="flavor-pill">Titan</span></div></div>
+            <div class="product-card-visual"><div class="card-stick-group"><div class="card-stick k1"><span>FUO</span></div><div class="card-stick k2"><span>FUO</span></div><div class="card-stick k3"><span>FUO</span></div><div class="card-stick k4"><span>FUO</span></div><div class="card-stick k5"><span>FUO</span></div></div></div>
+            <div class="product-card-info"><h3>Meat Sticks</h3><p class="price">From $18 / pack of 8</p><p>Unwrap one at the summit, on the river, or in the truck. Grab-and-go protein that doesn't need a cooler or a blender.</p><div class="flavor-pills"><span class="flavor-pill">Ridgeline Original</span><span class="flavor-pill">Pinecrest Turkey</span><span class="flavor-pill">Timberline Buffalo</span><span class="flavor-pill">Elk Run Venison</span><span class="flavor-pill">Fireside Jalapeno</span></div></div>
         </div>
     </div>
 </section>
@@ -468,85 +456,85 @@
 <!-- INGREDIENT TRANSPARENCY STRIP -->
 <div class="ingredient-strip">
     <div class="ingredient-track">
-        <span class="ingredient-item"><strong>30g</strong> Protein — muscle rebuild</span>
-        <span class="ingredient-item"><strong>1200mg</strong> Sodium — prevents cramping</span>
-        <span class="ingredient-item"><strong>500mg</strong> Potassium — nerve function</span>
-        <span class="ingredient-item"><strong>250mg</strong> Magnesium — reduces fatigue</span>
-        <span class="ingredient-item"><strong>0g</strong> Sugar — no crash</span>
-        <span class="ingredient-item"><strong>8g</strong> BCAAs — stops muscle breakdown</span>
-        <span class="ingredient-item"><strong>150mg</strong> Calcium — bone density</span>
-        <span class="ingredient-item"><strong>0</strong> Artificial colors — nothing to hide</span>
-        <span class="ingredient-item"><strong>30g</strong> Protein — muscle rebuild</span>
-        <span class="ingredient-item"><strong>1200mg</strong> Sodium — prevents cramping</span>
-        <span class="ingredient-item"><strong>500mg</strong> Potassium — nerve function</span>
-        <span class="ingredient-item"><strong>250mg</strong> Magnesium — reduces fatigue</span>
-        <span class="ingredient-item"><strong>0g</strong> Sugar — no crash</span>
-        <span class="ingredient-item"><strong>8g</strong> BCAAs — stops muscle breakdown</span>
-        <span class="ingredient-item"><strong>150mg</strong> Calcium — bone density</span>
-        <span class="ingredient-item"><strong>0</strong> Artificial colors — nothing to hide</span>
+        <span class="ingredient-item"><strong>15g</strong> Protein — sustained trail energy</span>
+        <span class="ingredient-item"><strong>0g</strong> Added sugar — no crash at mile five</span>
+        <span class="ingredient-item"><strong>Grass-fed</strong> Beef — the way it should be</span>
+        <span class="ingredient-item"><strong>0</strong> Preservatives — real food, nothing else</span>
+        <span class="ingredient-item"><strong>200mg</strong> Sodium — natural electrolytes</span>
+        <span class="ingredient-item"><strong>Low-carb</strong> — keto and paleo friendly</span>
+        <span class="ingredient-item"><strong>80cal</strong> Per serving — lean and clean</span>
+        <span class="ingredient-item"><strong>Gluten-free</strong> — no fillers, no wheat</span>
+        <span class="ingredient-item"><strong>15g</strong> Protein — sustained trail energy</span>
+        <span class="ingredient-item"><strong>0g</strong> Added sugar — no crash at mile five</span>
+        <span class="ingredient-item"><strong>Grass-fed</strong> Beef — the way it should be</span>
+        <span class="ingredient-item"><strong>0</strong> Preservatives — real food, nothing else</span>
+        <span class="ingredient-item"><strong>200mg</strong> Sodium — natural electrolytes</span>
+        <span class="ingredient-item"><strong>Low-carb</strong> — keto and paleo friendly</span>
+        <span class="ingredient-item"><strong>80cal</strong> Per serving — lean and clean</span>
+        <span class="ingredient-item"><strong>Gluten-free</strong> — no fillers, no wheat</span>
     </div>
 </div>
 
-<!-- THE SCIENCE -->
+<!-- THE PROBLEM -->
 <section id="science">
-    <div class="section-header reveal"><p class="section-label">The Problem</p><h2>The problem with your post-workout routine.</h2><p>You finish a brutal workout. Then you go home, make a shake, hope it's enough. By then you've lost the recovery window.</p></div>
+    <div class="section-header reveal"><p class="section-label">The Problem</p><h2>The problem with trail food.</h2><p>You plan a full day on the trail. Then you pack granola bars, trail mix loaded with candy, and call it nutrition. By noon you're dragging.</p></div>
     <div class="features-grid reveal">
-        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M6.5 17.5l11-11"/><circle cx="12" cy="12" r="10"/></svg></div><h3>Your muscles are starving</h3><p>30g whey isolate — more than most shakes — absorbed fast because you're drinking it immediately, not 45 minutes later at your kitchen counter.</p></div>
-        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3>You're more dehydrated than you think</h3><p>Sodium, potassium, magnesium, calcium. You sweat out all four. Water alone doesn't replace them. That's why you cramp, drag, and underperform next session.</p></div>
-        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>You read every label</h3><p>No sugar, no artificial colors, no proprietary blends. Every ingredient listed, every batch third-party tested. If you track macros, you'll respect this label.</p></div>
-        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3>The window is closing</h3><p>Your body starts cannibalizing muscle within 30 minutes post-workout. MANKIT mixes in 10 seconds — no blender needed. Recovery starts before you leave the gym floor.</p></div>
+        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3>Your body needs real protein</h3><p>15g protein from grass-fed beef per serving. Not soy isolate, not whey powder — actual food your body knows how to use on the move.</p></div>
+        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M6.5 17.5l11-11"/><circle cx="12" cy="12" r="10"/></svg></div><h3>Sugar crashes ruin the trail</h3><p>Zero added sugar means sustained energy, not a spike and crash by the next switchback. Stay fueled without the rollercoaster.</p></div>
+        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>You care what goes in your body</h3><p>No preservatives, no artificial anything. A short ingredient list you can actually read. If you check labels, you'll respect this one.</p></div>
+        <div class="feature"><div class="feature-icon-wrap"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3>It fits where you go</h3><p>No refrigeration, no prep, no utensils. Tear open a bag at the summit or unwrap a stick mid-stride. Lightweight fuel that goes wherever you do.</p></div>
     </div>
 </section>
 
 <!-- BIG QUOTE -->
 <section class="big-quote reveal">
-    <blockquote>"I got tired of the post-workout circus. Shaker bottle, electrolyte packet, BCAA pills, then rush home for a real meal. I thought — what if one drink covered it all? That's MANKIT."</blockquote>
-    <p class="quote-author">Ryan Hutzley, Founder</p>
+    <blockquote>"I got tired of packing a cooler full of junk food every time I hit the trail. Granola bars with 20 ingredients, beef jerky that tasted like cardboard. I thought — what if trail food was actually good? That's FUEL UP OUTDOORS."</blockquote>
+    <p class="quote-author">Johanthan Blake Olson, Founder</p>
 </section>
 
 <!-- HOW IT WORKS -->
 <section id="how">
-    <div class="section-header reveal"><p class="section-label">How It Works</p><h2>Kill the post-workout circus.</h2></div>
+    <div class="section-header reveal"><p class="section-label">How It Works</p><h2>From your door to the trail.</h2></div>
     <div class="steps">
-        <div class="step reveal"><div class="step-number">1</div><h3>Pick your weapon</h3><p>Sticks for the gym bag, cans for the locker. Either way, you're carrying one drink instead of a whole supplement stack.</p></div>
-        <div class="step reveal reveal-delay-1"><div class="step-number">2</div><h3>Delivered to your door</h3><p>Shipped free. Subscribe monthly so you never run out, or order once. Cancel anytime.</p></div>
-        <div class="step reveal reveal-delay-2"><div class="step-number">3</div><h3>Recover while they're still mixing</h3><p>30g protein and full electrolytes hitting your muscles while everyone else is still looking for their shaker bottle.</p></div>
+        <div class="step reveal"><div class="step-number">1</div><h3>Pick your pack</h3><p>Jerky bags for day hikes, meat sticks for summit pushes. Either way, you're carrying real food instead of sugar.</p></div>
+        <div class="step reveal reveal-delay-1"><div class="step-number">2</div><h3>Delivered to your door</h3><p>Shipped free. Subscribe monthly so your pack is always stocked, or order once. Cancel anytime.</p></div>
+        <div class="step reveal reveal-delay-2"><div class="step-number">3</div><h3>Fuel up while they're unwrapping granola</h3><p>15g protein and clean ingredients keeping you moving while everyone else is bonking on candy bars.</p></div>
     </div>
 </section>
 
 <!-- NUMBERS -->
 <div class="numbers reveal" id="numbersSection">
     <div class="numbers-grid">
-        <div class="number-item"><div class="num" data-target="5000" data-suffix="+">0</div><div class="num-label">Guys who ditched the shaker bag</div></div>
+        <div class="number-item"><div class="num" data-target="5000" data-suffix="+">0</div><div class="num-label">Hikers who ditched the granola bars</div></div>
         <div class="number-item"><div class="num" data-target="4.8" data-decimal="true">0</div><div class="num-label">Avg. tester rating</div></div>
-        <div class="number-item"><div class="num" data-target="30" data-suffix="g">0</div><div class="num-label">Protein per serve</div></div>
+        <div class="number-item"><div class="num" data-target="15" data-suffix="g">0</div><div class="num-label">Protein per serving</div></div>
         <div class="number-item"><div class="num" data-target="0" data-suffix="g" data-static="true">0g</div><div class="num-label">Sugar. Period.</div></div>
     </div>
 </div>
 
 <!-- TESTIMONIALS -->
 <section id="athletes">
-    <div class="section-header reveal"><p class="section-label">Results</p><h2>They had the same problem.</h2></div>
+    <div class="section-header reveal"><p class="section-label">Reviews</p><h2>They had the same problem.</h2></div>
     <div class="testimonials-grid">
-        <div class="testimonial reveal"><div class="stars"><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div></div><blockquote>"I was spending 20 minutes after every session mixing protein, adding electrolytes, popping BCAAs. Now I grab a MANKIT can from my locker and I'm done. My recovery time dropped noticeably."</blockquote><div class="testimonial-footer"><div class="testimonial-avatar">J</div><div class="testimonial-info"><div class="testimonial-author">Jake T.</div><div class="testimonial-handle">Powerlifter</div></div></div></div>
-        <div class="testimonial reveal reveal-delay-1"><div class="stars"><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div></div><blockquote>"I used to skip post-workout nutrition because I was rushing to work. Now I keep MANKIT sticks in my briefcase. Tear one into my water bottle in the parking lot. No excuses anymore."</blockquote><div class="testimonial-footer"><div class="testimonial-avatar">R</div><div class="testimonial-info"><div class="testimonial-author">Ryan M.</div><div class="testimonial-handle">Morning lifter</div></div></div></div>
-        <div class="testimonial reveal reveal-delay-2"><div class="stars"><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div></div><blockquote>"I've tried every protein drink on the market. Most taste like chalk and don't have electrolytes. MANKIT actually tastes good AND replaces my Gatorade and protein shake. One product, done."</blockquote><div class="testimonial-footer"><div class="testimonial-avatar">C</div><div class="testimonial-info"><div class="testimonial-author">Carlos D.</div><div class="testimonial-handle">Personal trainer</div></div></div></div>
+        <div class="testimonial reveal"><div class="stars"><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div></div><blockquote>"I carried FUEL UP OUTDOORS on 200 miles of the PCT. Most jerky is either too salty or tastes like shoe leather. This actually tastes good and packs light. It's my go-to trail protein now."</blockquote><div class="testimonial-footer"><div class="testimonial-avatar">M</div><div class="testimonial-info"><div class="testimonial-author">Mike S.</div><div class="testimonial-handle">Thru-hiker</div></div></div></div>
+        <div class="testimonial reveal reveal-delay-1"><div class="stars"><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div></div><blockquote>"I used to pack way too many snacks and still feel underfueled. Now I bring a few bags of FUEL UP OUTDOORS jerky and some meat sticks. Less weight, more protein, and I actually look forward to snack breaks."</blockquote><div class="testimonial-footer"><div class="testimonial-avatar">L</div><div class="testimonial-info"><div class="testimonial-author">Lauren K.</div><div class="testimonial-handle">Weekend backpacker</div></div></div></div>
+        <div class="testimonial reveal reveal-delay-2"><div class="stars"><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div></div><blockquote>"I need food that's calorie-dense, lightweight, and won't freeze solid at altitude. FUEL UP OUTDOORS meat sticks check every box. My clients always ask what I'm eating."</blockquote><div class="testimonial-footer"><div class="testimonial-avatar">D</div><div class="testimonial-info"><div class="testimonial-author">Derek W.</div><div class="testimonial-handle">Climbing guide</div></div></div></div>
     </div>
 </section>
 
 <!-- WAITLIST -->
 <section id="waitlist">
     <div class="waitlist-box reveal">
-        <p class="section-label">Early Access</p>
-        <h2>Done with the post-workout circus?</h2>
-        <p class="sub">Join 5,000+ lifters who are switching. Early pricing and free samples when we ship.</p>
+        <p class="section-label">Join the Pack</p>
+        <h2>Done with garbage trail food?</h2>
+        <p class="sub">Join 5,000+ outdoor people who upgraded their pack. First-order discount and free samples.</p>
         <form class="email-form" id="waitlistForm">
             <input type="email" placeholder="Enter your email" required aria-label="Email address">
-            <button type="submit">Join Waitlist</button>
+            <button type="submit">Join the Pack</button>
         </form>
         <div class="waitlist-perks">
             <span class="perk"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Free samples</span>
-            <span class="perk"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Early pricing</span>
+            <span class="perk"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> First-order discount</span>
             <span class="perk"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> No spam</span>
         </div>
         <p class="form-note">Unsubscribe anytime. We respect your inbox.</p>
@@ -554,26 +542,26 @@
     </div>
 </section>
 
-<!-- PRE-ORDER MODAL -->
+<!-- ORDER MODAL -->
 <div class="modal-overlay" id="preorderModal">
     <div class="modal">
         <div class="modal-header">
-            <h2 id="modalTitle">Pre-Order</h2>
+            <h2 id="modalTitle">Order</h2>
             <button class="modal-close" onclick="closePreorder()">&times;</button>
         </div>
         <div class="modal-body" id="modalBody">
             <div id="orderStep1">
-                <p class="order-section-label">Powder Sticks — Box of 12</p>
-                <div class="order-product" data-id="stick-blood-orange" data-price="24" data-name="Iron Forge Sticks (12)"><div class="order-product-info"><div class="order-product-swatch swatch-blood-orange">MK</div><div><div class="order-product-name">Iron Forge</div><div class="order-product-price">$24.00 / box</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <div class="order-product" data-id="stick-unflavored" data-price="22" data-name="Black Ops Sticks (12)"><div class="order-product-info"><div class="order-product-swatch swatch-stick-unflavored">MK</div><div><div class="order-product-name">Black Ops (Unflavored)</div><div class="order-product-price">$22.00 / box</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <div class="order-product" data-id="stick-vanilla" data-price="24" data-name="Granite Sticks (12)"><div class="order-product-info"><div class="order-product-swatch swatch-vanilla">MK</div><div><div class="order-product-name">Granite</div><div class="order-product-price">$24.00 / box</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <div class="order-product" data-id="stick-tropical" data-price="26" data-name="War Paint Sticks (12)"><div class="order-product-info"><div class="order-product-swatch swatch-tropical">MK</div><div><div class="order-product-name">War Paint</div><div class="order-product-price">$26.00 / box</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <p class="order-section-label">RTD Cans — Pack of 6</p>
-                <div class="order-product" data-id="can-blood-orange" data-price="30" data-name="Ironside Cans (6)"><div class="order-product-info"><div class="order-product-swatch swatch-can-blood-orange">MK</div><div><div class="order-product-name">Ironside</div><div class="order-product-price">$30.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <div class="order-product" data-id="can-unflavored" data-price="28" data-name="Blackout Cans (6)"><div class="order-product-info"><div class="order-product-swatch swatch-can-unflavored">MK</div><div><div class="order-product-name">Blackout (Unflavored)</div><div class="order-product-price">$28.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <div class="order-product" data-id="can-vanilla" data-price="30" data-name="Concrete Cans (6)"><div class="order-product-info"><div class="order-product-swatch swatch-can-vanilla">MK</div><div><div class="order-product-name">Concrete</div><div class="order-product-price">$30.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <div class="order-product" data-id="can-mango" data-price="32" data-name="Warzone Cans (6)"><div class="order-product-info"><div class="order-product-swatch swatch-mango">MK</div><div><div class="order-product-name">Warzone</div><div class="order-product-price">$32.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
-                <div class="order-product" data-id="can-chocolate" data-price="32" data-name="Titan Cans (6)"><div class="order-product-info"><div class="order-product-swatch swatch-chocolate">MK</div><div><div class="order-product-name">Titan</div><div class="order-product-price">$32.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <p class="order-section-label">Jerky Bags — 2.5 oz each</p>
+                <div class="order-product" data-id="jerky-original" data-price="14" data-name="Basecamp Original Jerky"><div class="order-product-info"><div class="order-product-swatch swatch-original">FUO</div><div><div class="order-product-name">Basecamp Original</div><div class="order-product-price">$14.00 / bag</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <div class="order-product" data-id="jerky-peppered" data-price="14" data-name="Smokestack Pepper Jerky"><div class="order-product-info"><div class="order-product-swatch swatch-peppered">FUO</div><div><div class="order-product-name">Smokestack Pepper</div><div class="order-product-price">$14.00 / bag</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <div class="order-product" data-id="jerky-teriyaki" data-price="15" data-name="Summit Teriyaki Jerky"><div class="order-product-info"><div class="order-product-swatch swatch-teriyaki">FUO</div><div><div class="order-product-name">Summit Teriyaki</div><div class="order-product-price">$15.00 / bag</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <div class="order-product" data-id="jerky-habanero" data-price="16" data-name="Trailfire Habanero Jerky"><div class="order-product-info"><div class="order-product-swatch swatch-habanero">FUO</div><div><div class="order-product-name">Trailfire Habanero</div><div class="order-product-price">$16.00 / bag</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <p class="order-section-label">Meat Sticks — Pack of 8</p>
+                <div class="order-product" data-id="stick-original" data-price="18" data-name="Ridgeline Original Sticks (8)"><div class="order-product-info"><div class="order-product-swatch swatch-stick-original">FUO</div><div><div class="order-product-name">Ridgeline Original</div><div class="order-product-price">$18.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <div class="order-product" data-id="stick-turkey" data-price="18" data-name="Pinecrest Turkey Sticks (8)"><div class="order-product-info"><div class="order-product-swatch swatch-stick-turkey">FUO</div><div><div class="order-product-name">Pinecrest Turkey</div><div class="order-product-price">$18.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <div class="order-product" data-id="stick-buffalo" data-price="20" data-name="Timberline Buffalo Sticks (8)"><div class="order-product-info"><div class="order-product-swatch swatch-stick-buffalo">FUO</div><div><div class="order-product-name">Timberline Buffalo</div><div class="order-product-price">$20.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <div class="order-product" data-id="stick-venison" data-price="22" data-name="Elk Run Venison Sticks (8)"><div class="order-product-info"><div class="order-product-swatch swatch-stick-venison">FUO</div><div><div class="order-product-name">Elk Run Venison</div><div class="order-product-price">$22.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
+                <div class="order-product" data-id="stick-jalapeno" data-price="20" data-name="Fireside Jalapeno Sticks (8)"><div class="order-product-info"><div class="order-product-swatch swatch-stick-jalapeno">FUO</div><div><div class="order-product-name">Fireside Jalapeno</div><div class="order-product-price">$20.00 / pack</div></div></div><div class="qty-control"><button class="qty-btn" onclick="changeQty(this,-1)">-</button><input class="qty-val" type="text" value="0" readonly><button class="qty-btn" onclick="changeQty(this,1)">+</button></div></div>
                 <div class="order-summary" id="orderSummary" style="display:none"><div id="summaryLines"></div><div class="order-summary-total"><span>Total</span><span id="summaryTotal">$0.00</span></div></div>
                 <button class="btn-order" id="btnNext" onclick="goToStep2()" disabled>Continue to Details</button>
             </div>
@@ -590,11 +578,11 @@
                     <p class="order-section-label">Notes (optional)</p>
                     <div class="form-row full"><div class="form-field"><textarea id="custNotes" placeholder="Any special requests..." maxlength="500"></textarea></div></div>
                     <div class="order-summary" id="orderSummary2"></div>
-                    <button class="btn-order" type="submit" id="btnSubmitOrder">Place Pre-Order</button>
+                    <button class="btn-order" type="submit" id="btnSubmitOrder">Place Order</button>
                 </form>
             </div>
             <div id="orderStep3" style="display:none">
-                <div class="order-success"><div class="order-success-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><h3>Pre-Order Confirmed!</h3><p>Thank you for your order. We'll reach out via email with updates on shipping and your early access perks.</p><div class="order-id" id="confirmOrderId"></div><div class="social-share" id="socialShare"><a class="share-btn" id="shareTwitter" target="_blank" rel="noopener">&#x1D54F; Share on X</a><a class="share-btn" id="shareCopy" onclick="copyShareText()">&#128203; Copy</a></div></div>
+                <div class="order-success"><div class="order-success-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><h3>Order Confirmed!</h3><p>Thank you for your order. We'll reach out via email with updates on shipping and your trail-ready protein.</p><div class="order-id" id="confirmOrderId"></div><div class="social-share" id="socialShare"><a class="share-btn" id="shareTwitter" target="_blank" rel="noopener">&#x1D54F; Share on X</a><a class="share-btn" id="shareCopy" onclick="copyShareText()">&#128203; Copy</a></div></div>
             </div>
         </div>
     </div>
@@ -646,20 +634,20 @@
 <!-- FOOTER -->
 <footer>
     <div class="footer-inner">
-        <div class="footer-logo">MANKIT</div>
+        <div class="footer-logo">FUEL UP OUTDOORS</div>
         <ul class="footer-links">
             <li><a href="#products">Products</a></li>
-            <li><a href="#science">Science</a></li>
+            <li><a href="#science">Nutrition</a></li>
             <li><a href="#how">How It Works</a></li>
-            <li><a href="#athletes">Results</a></li>
-            <li><a href="#waitlist">Waitlist</a></li>
+            <li><a href="#athletes">Reviews</a></li>
+            <li><a href="#waitlist">Join the Pack</a></li>
         </ul>
         <div class="footer-social">
             <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
             <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
             <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
         </div>
-        <p class="footer-copy">&copy; 2026 MANKIT by Ryan Hutzley. All rights reserved.</p>
+        <p class="footer-copy">&copy; 2026 FUEL UP OUTDOORS by Johanthan Blake Olson. All rights reserved.</p>
     </div>
 </footer>
 
@@ -700,12 +688,12 @@ function showToast(msg, isError) {
 }
 
 function genOrderId() {
-    return 'MK-' + Date.now().toString(36).toUpperCase() + Math.random().toString(36).substring(2,5).toUpperCase();
+    return 'FUO-' + Date.now().toString(36).toUpperCase() + Math.random().toString(36).substring(2,5).toUpperCase();
 }
 
 // Rate limiting: max 5 orders per hour per browser
 function checkRateLimit() {
-    const key = 'mk_order_times';
+    const key = 'fuo_order_times';
     const now = Date.now();
     let times = JSON.parse(localStorage.getItem(key) || '[]');
     times = times.filter(t => now - t < 3600000);
@@ -714,20 +702,6 @@ function checkRateLimit() {
     localStorage.setItem(key, JSON.stringify(times));
     return true;
 }
-
-// ============ COUNTDOWN TIMER ============
-function updateCountdown() {
-    const launch = new Date('2026-04-01T00:00:00');
-    const now = new Date();
-    const diff = launch - now;
-    if (diff <= 0) { document.getElementById('countdown').textContent = '— LIVE'; return; }
-    const d = Math.floor(diff / 86400000);
-    const h = Math.floor((diff % 86400000) / 3600000);
-    const m = Math.floor((diff % 3600000) / 60000);
-    document.getElementById('countdown').textContent = d + 'd ' + h + 'h ' + m + 'm';
-}
-updateCountdown();
-setInterval(updateCountdown, 60000);
 
 // ============ SCROLL REVEAL ============
 const observer = new IntersectionObserver((entries) => {
@@ -779,7 +753,7 @@ if (heroShowcase) {
         if (rect.bottom < 0 || rect.top > window.innerHeight) return;
         const cx = (e.clientX / window.innerWidth - 0.5) * 2;
         const cy = (e.clientY / window.innerHeight - 0.5) * 2;
-        heroShowcase.querySelectorAll('.can, .stick').forEach((el, i) => {
+        heroShowcase.querySelectorAll('.jerky-bag, .meat-stick').forEach((el, i) => {
             const factor = (i % 3 + 1) * 3;
             el.style.transform = 'translateY(0px) rotateY(' + (cx * factor) + 'deg) rotateX(' + (-cy * factor) + 'deg)';
         });
@@ -798,7 +772,7 @@ document.getElementById('waitlistForm').addEventListener('submit', async functio
         document.querySelector('.form-note').style.display = 'none';
         document.querySelector('.waitlist-perks').style.display = 'none';
     } catch (err) {
-        showToast('Could not join waitlist. Please try again.', true);
+        showToast('Could not join. Please try again.', true);
     }
 });
 
@@ -830,14 +804,14 @@ window.addEventListener('scroll', () => {
 
 // ============ SOCIAL SHARE ============
 function getShareText(orderId) {
-    return 'Just locked in my MANKIT order \ud83d\udd25 Built Different. @mankitofficial #MANKIT #BuiltDifferent';
+    return 'Just locked in my Fuel Up Outdoors order \u{1F3D5}\uFE0F Fuel the Wild. @fuelupoutdoors #FuelUpOutdoors #FuelTheWild';
 }
 function copyShareText() {
     const orderId = document.getElementById('confirmOrderId').textContent;
     navigator.clipboard.writeText(getShareText(orderId)).then(() => showToast('Copied to clipboard!'));
 }
 
-// ============ PRE-ORDER MODAL ============
+// ============ ORDER MODAL ============
 function openPreorder() {
     document.getElementById('preorderModal').classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -858,10 +832,10 @@ function resetOrderModal() {
     document.getElementById('orderStep1').style.display = '';
     document.getElementById('orderStep2').style.display = 'none';
     document.getElementById('orderStep3').style.display = 'none';
-    document.getElementById('modalTitle').textContent = 'Pre-Order';
+    document.getElementById('modalTitle').textContent = 'Order';
     document.querySelectorAll('.qty-val').forEach(i => i.value = '0');
     document.getElementById('btnSubmitOrder').disabled = false;
-    document.getElementById('btnSubmitOrder').innerHTML = 'Place Pre-Order';
+    document.getElementById('btnSubmitOrder').innerHTML = 'Place Order';
     updateSummary();
 }
 
@@ -915,7 +889,7 @@ function goToStep2() {
 function backToStep1() {
     document.getElementById('orderStep2').style.display = 'none';
     document.getElementById('orderStep1').style.display = '';
-    document.getElementById('modalTitle').textContent = 'Pre-Order';
+    document.getElementById('modalTitle').textContent = 'Order';
 }
 
 async function submitOrder(e) {
@@ -974,7 +948,7 @@ async function submitOrder(e) {
         showToast('Order placed successfully!');
     } catch (err) {
         btn.disabled = false;
-        btn.innerHTML = 'Place Pre-Order';
+        btn.innerHTML = 'Place Order';
         showToast('Failed to place order. Please try again.', true);
         console.error('Order error:', err);
     }
@@ -1108,7 +1082,7 @@ function exportCSV() {
     const blob = new Blob([csv], { type: 'text/csv' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = 'mankit-orders-' + new Date().toISOString().slice(0,10) + '.csv';
+    a.download = 'fuelupoutdoors-orders-' + new Date().toISOString().slice(0,10) + '.csv';
     a.click();
     URL.revokeObjectURL(a.href);
 }
