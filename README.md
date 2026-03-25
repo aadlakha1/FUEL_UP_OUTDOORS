@@ -4,7 +4,7 @@ Trail-ready jerky & meat sticks by **Johanthan Blake Olson**.
 
 **Tagline:** Fuel the Wild.
 
-**Live site:** https://aadlakha1.github.io/mankit/
+**Live site:** https://aadlakha1.github.io/FUEL_UP_OUTDOORS/
 **Admin dashboard:** append `?admin` to the site URL
 
 ---
